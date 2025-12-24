@@ -1,4 +1,4 @@
-# BhashIsh 🧠🔥  
+# BhashIsh 
 *A Hinglish-based Programming Language*
 
 BhashIsh is a small, educational, interpreter-based programming language written in Python, created for fun purposes.
@@ -24,18 +24,20 @@ The language prioritizes:
 ---
 
 ## 📂 Project Structure
+```
 bhashish/
 │
-├── lexer.py # Lexical analysis (tokenization)
-├── parser.py # Syntax analysis (AST generation)
-├── interpreter.py # Semantic execution
-├── keywords.py # Language vocabulary
-├── errors.py # Custom Hinglish errors
-├── main.py # CLI, REPL, module loader
+├── lexer.py         # Lexical analysis (tokenization)
+├── parser.py        # Syntax analysis (AST generation)
+├── interpreter.py   # Semantic execution
+├── keywords.py      # Language vocabulary
+├── errors.py        # Custom Hinglish errors
+├── main.py          # CLI, REPL, module loader
 │
 └── examples/
 ├── test.hl
 └── math_utils.hl
+```
 
 ---
 
@@ -55,7 +57,7 @@ python3 main.py
 
 Blank line executes the buffered code.
 
-## ✍️ Language Syntax Examples
+## Language Syntax Examples
 
 Variable assignment
 ```text
@@ -89,19 +91,13 @@ Importing modules
 laao "math_utils"
 ```
 
-# 🧮 Built-in Constants
-BHASHISH	Meaning
-sachhi	True
-jhootha	False
-kchh nahi	None
-
-# 🧪 Debug Helpers
+# Debug Helpers
 ```text
 dikhao variables
 ruk jao
 ```
 
-# 🧠 Compiler Design Perspective (CFG)
+# Compiler Design Perspective (CFG)
 BHASHISH is defined using a Context-Free Grammar (CFG).
 
 Non-Terminals (V)
@@ -176,17 +172,11 @@ Value →
 
 ```
 
-## 🧠 Architecture Notes
+## Architecture Notes
 - Lexer converts Hinglish source into tokens.
 - Parser builds a lightweight AST using tuples.
 - Interpreter executes AST nodes using an in-memory environment.
 - Module loading is handled strictly in main.py (not interpreter) to avoid circular dependencies.
-
-## 🛠️ Educational Purpose
-This project is intentionally:
-- minimal
-- readable
-- hackable
 
 
 ## 📌 License

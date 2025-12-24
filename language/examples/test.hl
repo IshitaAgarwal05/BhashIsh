@@ -1,0 +1,20 @@
+laao "math_utils"
+chhaap pi
+
+maan lo x hai 4
+maan lo y hai 6
+
+x hai y me x kam kar
+
+chhaap x
+
+maan lo nums hai [1, 2, 3, 4]
+
+bta "Enter number: " integer a
+
+har ek n nums me
+    chhaap n
+
+dikhao variables
+
+ruk jao

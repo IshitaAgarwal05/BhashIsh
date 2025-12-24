@@ -1,0 +1,35 @@
+{
+  "name": "BHASHISH",
+  "scopeName": "source.bhashish",
+  "patterns": [
+    {
+      "name": "comment.line.bhashish",
+      "match": "#.*$"
+    },
+    {
+      "name": "keyword.control.bhashish",
+      "match": "\\b(maan lo|jab tak|tab tak|agar|toh|warna|har ek|laao|chhaap|ruk jao|dikhao)\\b"
+    },
+    {
+      "name": "keyword.operator.bhashish",
+      "match": "\\b(kam kar|badha kar|guna kar|bhaag kar|aur|ya|not|nand|nor|xor)\\b"
+    },
+    {
+      "name": "constant.language.bhashish",
+      "match": "\\b(sachhi|jhootha|kchh nahi)\\b"
+    },
+    {
+      "name": "string.quoted.double.bhashish",
+      "begin": "\"",
+      "end": "\""
+    },
+    {
+      "name": "constant.numeric.bhashish",
+      "match": "\\b\\d+\\b"
+    },
+    {
+      "name": "variable.other.bhashish",
+      "match": "\\b[a-zA-Z_][a-zA-Z0-9_]*\\b"
+    }
+  ]
+}

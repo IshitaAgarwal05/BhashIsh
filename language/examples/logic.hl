@@ -1,0 +1,13 @@
+maan lo a hai sachhi
+maan lo b hai jhootha
+
+agar a aur b toh
+    chhaap 1
+warna
+    chhaap 0
+
+agar not b toh
+    chhaap 99
+
+agar a nand b toh
+    chhaap 42

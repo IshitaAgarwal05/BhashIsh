@@ -49,13 +49,19 @@ cd language
 python3 main.py examples/test.hl
 ```
 
-Start REPL
+### Start REPL
+Blank line executes the buffered code.
 ```bash
 cd language
 python3 main.py
 ```
 
-Blank line executes the buffered code.
+### Set it up for VSCode
+- Press Ctrl + Shift + P
+- Type → **Developer: Install Extension from Location**
+- Select **bhashish-vscode/** folder
+- Reload VS Code Window
+
 
 ## Language Syntax Examples
 
